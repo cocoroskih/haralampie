@@ -1,0 +1,201 @@
+body{
+    font-family: Verdana, sans-serif;
+    margin: 0;
+    background: beige;
+}
+#header {
+    background: #000;
+    margin: auto;
+    ul{
+        width: 30%;
+        display: flex;
+        justify-content: space-between;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        a {
+            padding: 15px;
+            text-decoration: none;
+            color: #fff;
+            li{
+                text-decoration: none;
+
+            }
+        }
+        a:hover{
+            background: darkred;
+            li {
+                color: black;
+                text-decoration: none;
+            }
+
+        }
+        a:visited {
+            li{
+            color: inherit;
+            text-decoration: none;
+            }
+        }
+    }
+
+}
+
+#body{
+    h1{
+        text-align: center;
+    }
+    p{
+        text-align: center;
+        font-size: 25px;
+    }
+    a{
+        color: black;
+        text-decoration: none;
+
+    }
+    #top2{
+        text-align: center;
+
+        ul{display: flex;
+            justify-content: space-between;
+            list-style: none;
+            width: 70%;
+            margin: auto;
+            padding-bottom: 40px;
+            li{
+                width: 30%;
+                border: 1px solid black;
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+    }
+    #bottom2{
+        text-align: center;
+
+        ul{
+            padding-bottom: 40px;
+            display: flex;
+            justify-content: space-between;
+            list-style: none;
+            width: 70%;
+            margin: auto;
+            li{
+                border: 1px solid black;
+                width: 30%;
+
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+    }
+}
+#footer{
+    background: #000;
+    padding: 20px;
+    p{
+        text-align: center;
+        color: white;
+        padding: 0;
+    }
+}
+
+#about-content{
+    margin-top: 80px;
+    margin-bottom: 80px;
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    #aboutpicture{
+        flex: 1;
+align-content: center;
+        a {
+            margin: auto;
+            display: flex;
+            background: url("aboutja.jpg") no-repeat;
+            background-size: contain;
+            width: 80%;
+            height: 100%;
+        }
+    }
+    #about-text {
+        flex: 1;
+        h1 {
+            font-size: 35px;
+        }
+
+        p {
+            font-size: 20px;
+        }
+    }
+}
+
+#education-content{
+    margin-top: 80px;
+    margin-bottom: 80px;
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    #educationpicture{
+        flex: 1;
+        align-content: center;
+        a {
+            margin: auto;
+            display: flex;
+            background: url("matura.jpg") no-repeat;
+            background-size: contain;
+            width: 80%;
+            height: 100%;
+        }
+    }
+    #about-text {
+        flex: 1;
+        h1 {
+            font-size: 35px;
+        }
+
+        p {
+            font-size: 20px;
+        }
+    }
+}
+
+#hobbies-content{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    h1 {
+        font-size: 35px;
+    }
+    p {
+        font-size: 20px;
+    }
+    #basketballimage{
+        align-self: center;
+    }
+    img{
+        width: 40%;
+    }
+}
+
+#contact-content{
+    padding-bottom: 287px;
+    h1{
+        font-size: 40px;
+    }
+    p{
+        font-size: 25px;
+        a{
+            text-decoration: none;
+            color: black;
+        }
+    }
+}
